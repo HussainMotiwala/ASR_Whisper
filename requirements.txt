@@ -1,0 +1,31 @@
+# Core Audio Processing
+librosa>=0.10.0
+noisereduce>=3.0.0
+pydub>=0.25.1
+numpy>=1.21.0
+
+# Whisper and ML Dependencies
+openai-whisper>=20231117
+torch>=2.0.0
+torchaudio>=2.0.0
+torchvision>=0.15.0
+
+# Audio Format Support
+soundfile>=0.12.1
+ffmpeg-python>=0.2.0
+
+# Utility Libraries
+pathlib2>=2.3.7; python_version < "3.4"
+argparse>=1.4.0; python_version < "2.7"
+
+# Optional: Faster Whisper (uncomment if you want speed optimization)
+faster-whisper>=0.9.0
+
+# Optional: Advanced Audio Processing (uncomment if needed)
+scipy>=1.9.0
+resampy>=0.4.0
+webrtcvad>=2.0.10
+
+# Development and Debugging (optional)
+matplotlib>=3.5.0
+python-dotenv>=0.21.0
